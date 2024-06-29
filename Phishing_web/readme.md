@@ -19,3 +19,11 @@ I made everything from scratch because trusting a random tool for phishing is fo
 I don't want any of you to do any kind of phishing but if you want to make it working
 1. Use any port forwarding tool (like ngrok.) or aws server to run it globally
 2. Then use any temporary mailing system to stay anonymous or fake the email
+
+
+### Requirements
+1. Node JS
+2. Express JS
+3. NPM (Node Package Manager)
+4. Mongoose
+5. Mongo DB
