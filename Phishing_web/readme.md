@@ -18,4 +18,4 @@ I made everything from scratch because trusting a random tool for phishing is fo
 ### Further steps
 I don't want any of you to do any kind of phishing but if you want to make it working
 1. Use any port forwarding tool (like ngrok.) or aws server to run it globally
-2. Then use Ethereal with nodemailer to stay anonymous or fake the email
+2. Then use any temporary mailing system to stay anonymous or fake the email
