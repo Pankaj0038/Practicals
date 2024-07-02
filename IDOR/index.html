@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Vuln-web</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<!-- <script src="index.js"></script> -->
+	<script type="text/javascript">
+		const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYXZ"
+		let iteration = 0;
+
+		document.querySelector("h1").onmouseover = event =>{
+			setInterval(()=> {
+			event.target.innertext = event.target.innertext.split("")
+			.map((letter,index) => {
+				if(index<iteration){
+					return event.target.dataset.value[index];
+				}
+					return letters[Math.floor(Math.random()*26)]
+				})
+			.join("");
+			if(iteration >= 9) clearInterval(interval);
+			iteration += 1/3;
+			},30);
+		}
+	</script>
+	<div class="container">
+		<header>
+			<h1 data-value="GUMN4M1">GUMN4M1</h1>
+<!-- 		<nav>
+				<a href="./index.html">Home</a>
+				<a href="#">Hack</a>
+				<a href="./login.html">Login</a>
+			</nav> -->
+		</header>
+		<!-- <main>
+			<div class="leftside">
+				<h3>Hello...</h3>
+				<h2>I am Pankaj Barman</h2>
+				<h4>A Cyber Security Enthusiast,why not you try to hack me !</h4>
+				<a id="btn1" href="#">Hack</a>
+			</div>
+			<div class="rightside">
+				<img src="/home/gumn4m1/Downloads/zl.png" alt="Ha ha ha">
+			</div>
+		</main>
+		<div id="name">Gumn4m1 4rt1st</div>
+	</div> -->
+</body>
+
+</html>
