@@ -1,6 +1,4 @@
-# WARNING
-This content is for education purpose.<br>
-Don't try to abuse or harm anybody.
+<img src="./images/WA.gif">
 
 ## Description
 I'm experimenting all kind of cyber threats from scratch. Learning about them and trying to recreate them from scratch. I'm adding some basic threats now but will gradually dive into real world threat/vulnerabilities soon.
